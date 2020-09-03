@@ -7,13 +7,31 @@
     </head>
     <body bgcolor="red">
         <header><h1>Contact Form</h1></header>
+       
         <form action="#" method="POST" >
-            <input name="name" type="text" value="Your Name"/><br/>
-            <input name="email" type="email" value="Your Email" /><br/>
-            <input name="phone" type="tel" value="Your Phone"/><br/>
-            <textarea name="message">message</textarea><br/>
-            <input type="submit" value="Send"/>
+            <table>
+                <tr>
+                    <td><label>Your Name:</label></td>
+                   <td> <input name="name" type="text" /></td><br/>
+                </tr>
+                   <tr>
+                   <td><label>Your Email:</label></td>
+                   <td> <input name="email" type="email"/></td><br/>
+                </tr>
+                <tr>
+                   <td><label>Your phone</label></td>
+                   <td><input name="phone" type="tel"/></td><br/>
+                </tr>
+                <tr>
+                   <td><label>Message: </label></td>
+                   <td><textarea name="message"></textarea></td><br/>
+                </tr>
+                <tr>
+                   <td colspan="2"><p style="text-align: center;"><input type="submit" value="Send"/></p></td>
+                </tr>
+
         </form>
+    </table>
         <br/>
         <nav>
          <a href="../Html-Sololearn/About Me.html"><ins>about me pg</ins></a>
