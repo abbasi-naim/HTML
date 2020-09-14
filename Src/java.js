@@ -7,3 +7,7 @@ var num2 = 29;
 var adult = (myAge<35)?"I am young" :"too old";
 var stringA="I am learning";
 var stringB="Java Script";
+
+/*if (num1>num2) {
+    document.write(num1 + "is greater than " + num2)
+}*/
