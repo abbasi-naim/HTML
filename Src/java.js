@@ -40,11 +40,10 @@ var stringB="Java Script";
         
     // }
 //the while loop
-var i = 0
-while (i<=10) {
-    document.write(i + "<br/>");
-    i++
-    
-}
+// var i = 0
+// while (i<=10) {
+//     document.write(i + "<br/>");
+//     i++
+// }
 
     
