@@ -11,3 +11,11 @@ var stringB="Java Script";
 /*if (num1>num2) {
     document.write(num1 + "is greater than " + num2)
 }*/
+
+if (num1<num2) {
+    alert(num2 +"is greater than" + num1);
+}
+    else {
+        document.write("Else scope will execute!");
+    }
+    
