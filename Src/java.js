@@ -53,10 +53,18 @@ do {
     i++;
 } while (i<=5);*/
 
-for (i = 0; i<=5; i++) {
+/*for (i = 0; i<=5; i++) {
     if (i==2) {
         break;
         
+    }
+    document.write(i + "<br/>");
+}*/
+
+//for with continue  and condition will not print. it means number 2 will not be printed.
+for (i = 0; i<=5; i++) {
+    if (i==2) {
+        continue; 
     }
     document.write(i + "<br/>");
 }
