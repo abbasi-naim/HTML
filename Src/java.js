@@ -12,10 +12,23 @@ var stringB="Java Script";
     document.write(num1 + "is greater than " + num2)
 }*/
 
-if (num1<num2) {
+/*if (num1<num2) {
     alert(num2 +"is greater than" + num1);
 }
     else {
         document.write("Else scope will execute!");
+    }*/
+    var day = 1;
+
+    switch (day) {
+        case 1:
+            document.write("Montag");
+            break;
+        case 2:
+            document.write("Dienstag");   
+        default:
+            document.write("Anderen Tag");
+            break;
     }
+
     
