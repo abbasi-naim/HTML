@@ -5,3 +5,5 @@ var myLastName = "Abbasi Darab";
 var num1 = 33;
 var num2 = 29;
 var adult = (myAge<35)?"I am young" :"too old";
+var stringA="I am learning";
+var stringB="Java Script";
