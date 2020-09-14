@@ -45,5 +45,19 @@ var stringB="Java Script";
 //     document.write(i + "<br/>");
 //     i++
 // }
+// do while loop
 
+/*var i=3;
+do {
+    document.write("Do While Loop /")
+    i++;
+} while (i<=5);*/
+
+for (i = 0; i<=5; i++) {
+    if (i==2) {
+        break;
+        
+    }
+    document.write(i + "<br/>");
+}
     
