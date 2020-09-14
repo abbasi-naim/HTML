@@ -18,17 +18,22 @@ var stringB="Java Script";
     else {
         document.write("Else scope will execute!");
     }*/
-    var day = 1;
+    // var day = 1;
 
-    switch (day) {
-        case 1:
-            document.write("Montag");
-            break;
-        case 2:
-            document.write("Dienstag");   
-        default:
-            document.write("Anderen Tag");
-            break;
+    // switch (day) {
+    //     case 1:
+    //         document.write("Montag");
+    //         break;
+    //     case 2:
+    //         document.write("Dienstag");   
+    //     default:
+    //         document.write("Anderen Tag");
+    //         break;
+    // }
+
+    for (i=1; i<=5; i++) {
+       document.write(i + "<br/>");
+        
     }
 
     
