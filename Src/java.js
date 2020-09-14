@@ -34,11 +34,17 @@ var stringB="Java Script";
     // for (i=1; i<=5; i++) {
     //    document.write(i + "<br/>");  
     // }
-    var i=1
-    for (;i<3; i++) {
-        document.write(i + "<br/>");
+    // var i=1
+    // for (;i<3; i++) {
+    //     document.write(i + "<br/>");
         
-    }
-
+    // }
+//the while loop
+var i = 0
+while (i<=10) {
+    document.write(i + "<br/>");
+    i++
+    
+}
 
     
