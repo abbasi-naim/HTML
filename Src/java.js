@@ -83,5 +83,6 @@ function country() {
     
 }
 //caling function
-country();
+//country();
+country.call();
     
