@@ -62,10 +62,26 @@ do {
 }*/
 
 //for with continue  and condition will not print. it means number 2 will not be printed.
-for (i = 0; i<=5; i++) {
+/*for (i = 0; i<=5; i++) {
     if (i==2) {
         continue; 
     }
     document.write(i + "<br/>");
+}*/
+
+//defining a function in java script
+var land = 1
+function country() {
+    switch (land) {
+        case 1:
+            document.write("Deutschland");
+            break;
+        default:
+            document.write("ein anderes Land")
+            break;
+    }
+    
 }
+//caling function
+country();
     
