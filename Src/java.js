@@ -92,9 +92,17 @@ function country() {
 
 sayHello("Liebe/lieber besucher!");*/
 
-function hello(name,age) {
-    document.write(name + " is " + age + " years old!");
+// function hello(name,age) {
+//     document.write(name + " is " + age + " years old!");
     
+// }
+
+// hello(myName,num1);
+
+function calculate(a,b) {
+    return a * b ;
 }
 
-hello(myName,num1);
+var result = calculate(2,3);
+document.write("the result is " + result);
+
