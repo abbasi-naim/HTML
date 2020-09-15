@@ -70,7 +70,7 @@ do {
 }*/
 
 //defining a function in java script
-var land = 1
+/*var land = 1
 function country() {
     switch (land) {
         case 1:
@@ -81,8 +81,13 @@ function country() {
             break;
     }
     
-}
+}*/
 //caling function
 //country();
-country.call();
+/*country.call();*/
+
+function sayHello(name) {
+    document.write("Hello "+ name);
+}
     
+sayHello("Liebe/lieber besucher!");
