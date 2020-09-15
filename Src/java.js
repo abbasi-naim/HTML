@@ -112,6 +112,15 @@ document.write("the result is " + result);*/
 }
 document.write("sum is "+ sum(3,4));*/
 
-var name = prompt("please enter your name");
-alert(name+", Wilkommen auf meiner Seite");
+/*var name = prompt("please enter your name");
+alert(name+", Wilkommen auf meiner Seite");*/
+
+var message = confirm("Do you realy want to leave the page?");
+if (message == true) {
+    alert("thank you for visiting us");
+    
+} else {
+    alert("thank you for staying with us!");
+    
+}
 
