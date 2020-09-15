@@ -99,10 +99,16 @@ sayHello("Liebe/lieber besucher!");*/
 
 // hello(myName,num1);
 
-function calculate(a,b) {
+/*function calculate(a,b) {
     return a * b ;
 }
 
 var result = calculate(2,3);
-document.write("the result is " + result);
+document.write("the result is " + result);*/
+
+function sum(x,y) {
+    z=x+y;
+    return z;   
+}
+document.write("sum is "+ sum(3,4));
 
