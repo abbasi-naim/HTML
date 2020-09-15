@@ -106,9 +106,12 @@ sayHello("Liebe/lieber besucher!");*/
 var result = calculate(2,3);
 document.write("the result is " + result);*/
 
-function sum(x,y) {
+/*function sum(x,y) {
     z=x+y;
     return z;   
 }
-document.write("sum is "+ sum(3,4));
+document.write("sum is "+ sum(3,4));*/
+
+var name = prompt("please enter your name");
+alert(name+", Wilkommen auf meiner Seite");
 
