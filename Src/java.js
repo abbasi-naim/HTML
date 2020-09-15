@@ -86,8 +86,15 @@ function country() {
 //country();
 /*country.call();*/
 
-function sayHello(name) {
+/*function sayHello(name) {
     document.write("Hello "+ name);
 }
+
+sayHello("Liebe/lieber besucher!");*/
+
+function hello(name,age) {
+    document.write(name + " is " + age + " years old!");
     
-sayHello("Liebe/lieber besucher!");
+}
+
+hello(myName,num1);
