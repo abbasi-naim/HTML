@@ -145,7 +145,7 @@ if (message == true) {
    document.write(z.length);*/
 
    //object constructor
-   function myPerson (name,age,height) {
+   /*function myPerson (name,age,height) {
        this.name = name;
        this.age = age;
        this.height = height;
@@ -153,4 +153,16 @@ if (message == true) {
    };
 
    var x1 = new myPerson("naim",33,195);
-   document.write(x1.name);
+   document.write(x1.name);*/
+
+   function car(name,color){
+       this.name = name;
+       this.color = color;
+       this.changeColor = function(color){
+       this.color = color;
+       }
+   }
+
+   var car1 = new car ("BMW","Red");
+   car1.changeColor("black");
+   document.write(car1.color);
