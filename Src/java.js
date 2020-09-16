@@ -138,6 +138,9 @@ var person = {
    };
    var x = person.age;
    var y = person['age'];
+   var z = person.name;
 
-   document.write(x);
+   document.write(x + "<br/>");
+   
+   document.write(z.length);
 
