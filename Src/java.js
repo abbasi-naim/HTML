@@ -132,7 +132,7 @@ if (message == true) {
 
 // document.write(person.myname);
 
-var person = {
+/*var person = {
     name: "John", age: 31, 
     favColor: "green", height: 183
    };
@@ -142,5 +142,15 @@ var person = {
 
    document.write(x + "<br/>");
    
-   document.write(z.length);
+   document.write(z.length);*/
 
+   //object constructor
+   function myPerson (name,age,height) {
+       this.name = name;
+       this.age = age;
+       this.height = height;
+       
+   };
+
+   var x1 = new myPerson("naim",33,195);
+   document.write(x1.name);
