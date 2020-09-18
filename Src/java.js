@@ -155,7 +155,7 @@ if (message == true) {
    var x1 = new myPerson("naim",33,195);
    document.write(x1.name);*/
 
-   function car(name,color){
+  /* function car(name,color){
        this.name = name;
        this.color = color;
        this.changeColor = function(color){
@@ -165,4 +165,19 @@ if (message == true) {
 
    var car1 = new car ("BMW","Red");
    car1.changeColor("black");
-   document.write(car1.color);
+   document.write(car1.color);*/
+// defining method 
+   function newPerson(name,age) {
+       this.name = name;
+       this.age= age;
+       this.yearOfBirth = birthday;
+       
+    }
+
+    function birthday() {
+        return 2020 - this.age;
+        
+    }
+
+    var per = new newPerson("Naim",33);
+    document.write(per.yearOfBirth());
