@@ -184,7 +184,7 @@ if (message == true) {
     document.write(per.yearOfBirth());*/
     
     //defining Array 
-
+    //literal Array
     /*var courses = new Array ("Computer","Industrial","Electronic");
     courses[2]=("Englisch");
     document.write(courses[2]);*/
@@ -196,4 +196,6 @@ if (message == true) {
     courses[1] = "Industrial";
     courses[2] = "Electronic";
 
-    document.write(courses[1]);
+    document.write(courses[1] + "<br/>");
+    //length of Array
+    document.write(courses.length);
