@@ -167,7 +167,8 @@ if (message == true) {
    car1.changeColor("black");
    document.write(car1.color);*/
 // defining method 
-   function newPerson(name,age) {
+   
+/*function newPerson(name,age) {
        this.name = name;
        this.age= age;
        this.yearOfBirth = birthday;
@@ -180,4 +181,9 @@ if (message == true) {
     }
 
     var per = new newPerson("Naim",33);
-    document.write(per.yearOfBirth());
+    document.write(per.yearOfBirth());*/
+    
+    //defining Array 
+
+    var courses = new Array ("Computer","Industrial","Electronic");
+    document.write(courses[1]);
