@@ -215,4 +215,7 @@ if (message == true) {
     document.write(personal.length);*/
 
     //Math Object
-    document.write(Math.PI);
+    document.write(Math.PI + " ");
+    document.write(Math.E + " ");
+
+    document.write(Math.sqrt(4));
