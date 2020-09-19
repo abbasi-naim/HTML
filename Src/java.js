@@ -185,6 +185,15 @@ if (message == true) {
     
     //defining Array 
 
-    var courses = new Array ("Computer","Industrial","Electronic");
+    /*var courses = new Array ("Computer","Industrial","Electronic");
     courses[2]=("Englisch");
+    document.write(courses[2]);*/
+
+    //other way of defining Array
+
+    var courses = new Array(3);
+    courses[0]= "Computer";
+    courses[1] = "Industrial";
+    courses[2] = "Electronic";
+
     document.write(courses[1]);
