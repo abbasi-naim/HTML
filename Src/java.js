@@ -252,3 +252,12 @@ if (message == true) {
      var id = document.getElementById(id);
      var name = document.getElementsByName(name);
      var className = document.getElementsByClassName(name);*/
+
+     //Change color of <p> tag name
+function myFunction() {
+  var x = document.getElementsByTagName("P");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "red";
+  }
+}
+
