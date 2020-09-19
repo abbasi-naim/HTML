@@ -206,8 +206,13 @@ if (message == true) {
     var newCourses = courses.concat(course);
     document.write(newCourses);*/
 
+    /*
     // Associative Array 
     var personal = [];
     personal["name"] = "Naim";
     personal["age"] = "33";
     document.write(personal["age"]);
+    document.write(personal.length);*/
+
+    //Math Object
+    document.write(Math.PI);
