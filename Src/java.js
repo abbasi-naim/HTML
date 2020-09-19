@@ -225,10 +225,14 @@ if (message == true) {
      var calculate = Math.sqrt(getUserInput);
      alert("You put number " + getUserInput + " And the sqrt is " + calculate);*/
 
-     //Data Object
-
+     //Date Object
+/*
      function myInterval() {
-         alert("Hi Java");
+         alert("Rahayi az deghdegheha");
          
      }
-     setInterval(myInterval,3000);
+     setInterval(myInterval,3000);*/
+
+     var dateTime = new Date();
+     var month = dateTime.getMonth();
+     document.write(month);
