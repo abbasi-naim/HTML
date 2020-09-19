@@ -219,3 +219,7 @@ if (message == true) {
     document.write(Math.E + " ");
 
     document.write(Math.sqrt(4));
+
+     var getUserInput = prompt("please put even number" + "");
+     var calculate = Math.sqrt(getUserInput);
+     alert("You put number " + getUserInput + " And the sqrt is " + calculate);
