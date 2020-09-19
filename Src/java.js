@@ -214,6 +214,7 @@ if (message == true) {
     document.write(personal["age"]);
     document.write(personal.length);*/
 
+    /*
     //Math Object
     document.write(Math.PI + " ");
     document.write(Math.E + " ");
@@ -222,4 +223,12 @@ if (message == true) {
 
      var getUserInput = prompt("please put even number" + "");
      var calculate = Math.sqrt(getUserInput);
-     alert("You put number " + getUserInput + " And the sqrt is " + calculate);
+     alert("You put number " + getUserInput + " And the sqrt is " + calculate);*/
+
+     //Data Object
+
+     function myInterval() {
+         alert("Hi Java");
+         
+     }
+     setInterval(myInterval,3000);
