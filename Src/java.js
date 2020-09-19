@@ -232,7 +232,7 @@ if (message == true) {
          
      }
      setInterval(myInterval,3000);*/
-
+/*
      var dateTime = new Date();
      var month = dateTime.getMonth();
      document.write(month);
@@ -246,3 +246,9 @@ if (message == true) {
          
      }
      setInterval(myDateTime,1000);
+     */
+// document.getElementById
+/*
+     var id = document.getElementById(id);
+     var name = document.getElementsByName(name);
+     var className = document.getElementsByClassName(name);*/
