@@ -199,3 +199,9 @@ if (message == true) {
     document.write(courses[1] + "<br/>");
     //length of Array
     document.write(courses.length);
+
+    //Array Concatination
+    var course = ["Deutsch" , "Civil"]
+
+    var newCourses = courses.concat(course);
+    document.write(newCourses);
