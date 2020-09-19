@@ -190,7 +190,7 @@ if (message == true) {
     document.write(courses[2]);*/
 
     //other way of defining Array
-
+/*
     var courses = new Array(3);
     courses[0]= "Computer";
     courses[1] = "Industrial";
@@ -198,10 +198,16 @@ if (message == true) {
 
     document.write(courses[1] + "<br/>");
     //length of Array
-    document.write(courses.length);
-
+    document.write(courses.length);*/
+/*
     //Array Concatination
     var course = ["Deutsch" , "Civil"]
 
     var newCourses = courses.concat(course);
-    document.write(newCourses);
+    document.write(newCourses);*/
+
+    // Associative Array 
+    var personal = [];
+    personal["name"] = "Naim";
+    personal["age"] = "33";
+    document.write(personal["age"]);
