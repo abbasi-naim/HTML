@@ -236,3 +236,13 @@ if (message == true) {
      var dateTime = new Date();
      var month = dateTime.getMonth();
      document.write(month);
+
+     function myDateTime() {
+         var d = new Date();
+         var h = d.getHours();
+         var m = d.getMinutes();
+         var s = d.getSeconds();
+         document.body.innerHTML = h + ":" + m + ":" + s + ":" ;
+         
+     }
+     setInterval(myDateTime,1000);
