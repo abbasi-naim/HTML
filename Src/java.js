@@ -273,3 +273,8 @@ function undo() {
 //change the src image 
 var el = document.getElementById("myimage");
 el.src = "..//Html-Sololearn/Assets/pix2.jpg";
+
+//change a href 
+
+var hRef = document.getElementsByTagName("a");
+hRef[0].href = "www.google.com";
