@@ -270,3 +270,6 @@ function undo() {
     
 }
 
+//change the src image 
+var el = document.getElementById("myimage");
+el.src = "..//Html-Sololearn/Assets/pix2.jpg";
