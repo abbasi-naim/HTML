@@ -261,3 +261,12 @@ function myFunction() {
   }
 }
 
+function undo() {
+    var y =document.getElementsByTagName("P");
+    for (i= 0; i< y.length; i++) {
+        y[i].style.backgroundColor= "white";
+        
+    }
+    
+}
+
