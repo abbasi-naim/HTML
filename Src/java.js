@@ -438,4 +438,7 @@ var images = [
  let lst = `welcome ${nm}`;
  document.write(lst);
 
+ let a = 1 ;
+  let b = 3;
+  let msg = `the sum is ${a+b}`;
  
