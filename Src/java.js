@@ -426,3 +426,10 @@ var images = [
   const a = "Naim";
   a = "Abbasi";
   */
+ //Template Literals in ES6
+
+ let name = "Naim";
+ let last = name + "Abbasi";
+ document.write(last);
+
+ 
