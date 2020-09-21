@@ -302,3 +302,14 @@ div.appendChild(parag);
 var demParent = document.getElementById("demo");
 var p1Child = document.getElementById("p1");
 demParent.removeChild(p1Child);
+
+
+//Replacing Element 
+
+var pNew = document.createElement("p");
+var txt = document.createTextNode("Some Text");
+pNew.appendChild(txt);
+
+var par = document.getElementById("demo");
+var newpar = document.getElementById("p1");
+par.replaceChild(pNew,newpar);
