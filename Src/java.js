@@ -454,3 +454,11 @@ var images = [
       console.log(v);
       
   }
+
+  //loop  list
+
+  let list = ["A" , "B" , "C"];
+  for (let val of list) {
+      console.log(val);
+      
+  }
