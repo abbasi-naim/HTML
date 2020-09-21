@@ -357,5 +357,8 @@ btn.addEventListener("click" , myFunc());
 
 function myFunc(){
     alert(Math.random());
-    btn.removeEventListener("click",myFunc);
+    btn.removeEventListener("click",myFunc());
 }};
+
+//Capturing propagation 
+btn.addEventListener("click" , myFunc() , true)
