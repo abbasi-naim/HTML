@@ -408,3 +408,9 @@ var images = [
       }
       
   }
+
+  //defining variable with let and it generate an error due to scope
+  if (true) {
+      let name = "Naim"; 
+  }
+  alert(name);
