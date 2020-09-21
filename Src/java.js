@@ -392,3 +392,19 @@ var images = [
     slider.src = images[num];
   }
 
+  function validate() {
+      var email1 = document.getElementById("email1");
+      var email2 = document.getElementById("email2");
+      if (email1.value !="" && email2.value !="") {
+          if (email1.value == email2.value) {
+              return true;
+              
+          }
+          
+      } else {
+          alert("the values should be equel and not blank");
+          return false;
+          
+      }
+      
+  }
