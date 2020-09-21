@@ -285,3 +285,14 @@ window.onload = function() {
     xx.style.color = '#6600FF';
     xx.style.width = '100px';
 };
+
+
+//creating Element
+window.onload = function(){
+var parag = document.createElement("p");
+var chilD = document.createTextNode("Create Text by Element!!");
+parag.appendChild(chilD);
+
+var div = document.getElementById("demo2");
+div.appendChild(parag);
+}
