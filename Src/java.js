@@ -345,3 +345,8 @@ window.onload = function() {
         document.body.innerHTML = Date();
     }
 };
+
+function funcChange() {
+    var na = document.getElementById("name");
+    na.value = na.value.toUpperCase();
+}
