@@ -441,4 +441,11 @@ var images = [
  let a = 1 ;
   let b = 3;
   let msg = `the sum is ${a+b}`;
+
+  //Loops in ECMAScript 6 
+  let arr = [1,2,3];
+  for (let i = 0; i < arr.length; i++) {
+      console.log(arr[i]);
+      
+  }
  
