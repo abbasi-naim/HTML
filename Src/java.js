@@ -362,3 +362,6 @@ function myFunc(){
 
 //Capturing propagation 
 btn.addEventListener("click" , myFunc() , true)
+
+//Bubbling propagation -- useCapture is not written the value is False for it
+btn.addEventListener("click" , myFunc() , false)
