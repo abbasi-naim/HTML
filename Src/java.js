@@ -331,3 +331,8 @@ window.onload = function() {
        }
    }
 };
+
+//Handling Events
+function showEvent() {
+    alert("this is index page!");   
+}
