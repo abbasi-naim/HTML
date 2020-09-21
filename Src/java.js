@@ -296,3 +296,9 @@ parag.appendChild(chilD);
 var div = document.getElementById("demo2");
 div.appendChild(parag);
 }
+
+//removing Element
+
+var demParent = document.getElementById("demo");
+var p1Child = document.getElementById("p1");
+demParent.removeChild(p1Child);
