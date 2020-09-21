@@ -313,3 +313,21 @@ pNew.appendChild(txt);
 var par = document.getElementById("demo");
 var newpar = document.getElementById("p1");
 par.replaceChild(pNew,newpar);
+
+//Creating Animation
+window.onload = function() {
+    var pos = 0; 
+   //our box element
+   var box = document.getElementById('box');
+   var t = setInterval(move, 10);
+ 
+   function move() {
+       if(pos >= 150) {
+           clearInterval(t);
+       }
+       else {
+           pos += 1;
+           box.style.left = pos+'px';
+       }
+   }
+};
