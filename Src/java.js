@@ -462,3 +462,10 @@ var images = [
       console.log(val);
       
   }
+
+  //loop character (string)
+
+  for (let ch of "hello") {
+      console.log(ch);
+      
+  }
