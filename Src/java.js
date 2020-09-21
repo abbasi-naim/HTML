@@ -278,3 +278,10 @@ el.src = "..//Html-Sololearn/Assets/pix2.jpg";
 
 var hRef = document.getElementsByTagName("a");
 hRef[0].href = "www.google.com";
+
+
+window.onload = function() {
+    var xx = document.getElementById("demo");
+    xx.style.color = '#6600FF';
+    xx.style.width = '100px';
+};
