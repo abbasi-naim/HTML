@@ -414,3 +414,9 @@ var images = [
       let name = "Naim"; 
   }
   alert(name);
+
+  //One of the best uses for let is in loops
+  for (let i = 0; i < array.length; i++) {
+      document.write("Naim");
+      
+  }
