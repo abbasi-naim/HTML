@@ -432,4 +432,10 @@ var images = [
  let last = name + "Abbasi";
  document.write(last);
 
+ //other way of output string
+
+ let nm = "Rana";
+ let lst = `welcome ${nm}`;
+ document.write(lst);
+
  
