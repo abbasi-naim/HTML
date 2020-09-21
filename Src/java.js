@@ -349,4 +349,13 @@ window.onload = function() {
 function funcChange() {
     var na = document.getElementById("name");
     na.value = na.value.toUpperCase();
-}
+};
+
+window.onload = function() {
+var btn = document.getElementById("eva");
+btn.addEventListener("click" , myFunc());
+
+function myFunc(){
+    alert(Math.random());
+    btn.removeEventListener("click",myFunc);
+}};
