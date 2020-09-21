@@ -420,3 +420,9 @@ var images = [
       document.write("Naim");
       
   }
+
+  // const variable cant reassign  it is immutable
+/*
+  const a = "Naim";
+  a = "Abbasi";
+  */
