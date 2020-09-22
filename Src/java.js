@@ -506,3 +506,13 @@ var images = [
         document.write(v*2)
     })
 
+    //print odd numbers
+
+    const printOdd = (arr) => {
+        arr.forEach(el => {
+            if (el % 2 !=0) {
+                document.write(el);
+                
+            }
+        })
+    }
