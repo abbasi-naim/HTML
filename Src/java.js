@@ -477,3 +477,10 @@ var images = [
     var sum = x+y;
     document.write(sum);      
   }
+
+  //function in ES6
+
+  const add  = (x,y) => {
+      let sum = x+y;
+      document.write(sum);
+  }
