@@ -499,3 +499,10 @@ var images = [
       document.write(el*2);
   })
 
+    //forEach in ES6
+
+    const arr = [2,3,4];
+    arr.forEach(v=> {
+        document.write(v*2)
+    })
+
