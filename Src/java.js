@@ -663,3 +663,21 @@ var sqr = class{
 const recc = new sqr(5,2);
 document.write(recc.wi);
 
+
+//Inheritance in ES6
+class Animal {
+    constructor(name) {
+      this.name = name;
+    }
+    speak() {
+      console.log(this.name + ' makes a noise.');
+    }
+  }
+  
+  class Dog extends Animal {
+    speak() {
+      console.log(this.name + ' barks.');
+    }
+  }
+  let dog = new Dog('Rex');
+  dog.speak(); // Rex barks.
