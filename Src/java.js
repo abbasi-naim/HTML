@@ -516,3 +516,10 @@ var images = [
             }
         })
     }
+
+    //default value in JS
+
+    function calc(a , b=3 , c=2) {
+        return a+b+c;  
+    }
+    document.write(calc(5));
