@@ -615,3 +615,11 @@ var images = [
     };
 
     let [one ,two , three] = a();
+
+    //Object Destructuring in ES6 
+
+    let obj = {a:10 , b:true};
+    let {a,b} = obj;
+    document.write(a);
+    document.write(b);
+
