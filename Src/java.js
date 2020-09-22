@@ -530,3 +530,17 @@ var images = [
         return a +b +c ;
     }
     document.write(calc(5));
+
+    //ES6 Objects
+
+
+    let tree = {
+        height : 10 ,
+        color : 'Green',
+        grow(){
+            this.height +=2;
+        }
+
+    };
+    tree.grow();
+    document.write(tree.height);
