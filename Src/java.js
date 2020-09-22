@@ -694,5 +694,11 @@ class Animal {
   map.set('k1','v1').set('k2','v2');
   document.write(map.get('k1')); // v1
   document.write(map.has('k2')); // true
+
+  //ES6 Set 
+  let set = new Set([1,2,3,4,4,2,1]);
+  document.write(set.size); //4
   
+
+
 
