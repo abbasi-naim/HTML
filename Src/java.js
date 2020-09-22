@@ -622,4 +622,8 @@ var images = [
     let {a,b} = obj;
     document.write(a);
     document.write(b);
+//Object Destructuring in ES6 -2
 
+let a,b;
+({a,b}={a:"Hello" , b:'123'});
+document.write(a+b);
