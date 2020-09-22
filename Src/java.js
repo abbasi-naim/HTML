@@ -635,3 +635,7 @@ class rect {
         this.width = width;
     }
 }
+
+//create object from above classes
+
+const ancle = new rect(5,5);
