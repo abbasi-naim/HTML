@@ -556,3 +556,14 @@ var images = [
     car.accelerate();
     car.accelerate();
     document.write(car.speed);
+
+    //computed property name in ES6
+
+    let prop = 'name';
+    let id = '12086';
+    let mobile = '9859';
+
+    let user = {
+        [prop] : 'Jack',
+        [`user_${id}`] : `${mobile}`
+    };
