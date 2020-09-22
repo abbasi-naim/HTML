@@ -639,3 +639,15 @@ class rect {
 //create object from above classes
 
 const ancle = new rect(5,5);
+
+//define class with name
+
+var square = class rectangle {
+    constructor(width,height){
+        this.width = width;
+        this.height = height;
+    }
+}
+
+const recta = new square (4,3);
+
