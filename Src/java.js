@@ -651,3 +651,15 @@ var square = class rectangle {
 
 const recta = new square (4,3);
 
+//define class without name 
+
+var sqr = class{
+    constructor(wi,hei){
+        this.wi = wi;
+        this.hei = hei;
+    }
+}
+
+const recc = new sqr(5,2);
+document.write(recc.wi);
+
