@@ -490,3 +490,12 @@ var images = [
   // ES6  with no parameter
 
   const greet = () => alert("Hi!")
+
+
+  //forEach in js
+
+  var arr = [2,3,4];
+  arr.forEach(function(el){
+      document.write(el*2);
+  })
+
