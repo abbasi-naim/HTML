@@ -627,3 +627,11 @@ var images = [
 let a,b;
 ({a,b}={a:"Hello" , b:'123'});
 document.write(a+b);
+
+//Classes in ES6
+class rect {
+    constructor(height,width){
+        this.height = height;
+        this.width = width;
+    }
+}
