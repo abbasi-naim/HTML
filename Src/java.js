@@ -599,3 +599,12 @@ var images = [
     document.write(newStudent.name); //Rana
     document.write(newStudent.age); //30
     document.write(newStudent.gender); // female
+
+    //Array Destructuring in ES6
+
+    let arr = ['1', '2' , '3'];
+    let [one , two , three] = arr;
+    document.write(one); //1
+    document.write(two); //2
+    document.write(three); //3
+    
