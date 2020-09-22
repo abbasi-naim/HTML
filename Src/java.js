@@ -607,4 +607,11 @@ var images = [
     document.write(one); //1
     document.write(two); //2
     document.write(three); //3
-    
+
+    //Example of Destructuring in ES6
+
+    let a = () => {
+        return [1,2,3];
+    };
+
+    let [one ,two , three] = a();
