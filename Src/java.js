@@ -709,6 +709,15 @@ console.log(set.has(9)); // true
 for (let v of set.values())
     console.log(v);  // 5-9-59
 
+// setTimeOut 
+ setTimeout(() => {
+     document.write("end work");
+     
+     
+ }, 1000);
+
+
+
 
 
 
