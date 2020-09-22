@@ -567,3 +567,16 @@ var images = [
         [prop] : 'Jack',
         [`user_${id}`] : `${mobile}`
     };
+
+    //Example of propert name in ES6 
+
+    var i = 0 ;
+    var a = {
+        ['foo' + ++i] : i ,
+        ['foo' + ++i] : i,
+        ['foo' + ++i] : i
+
+    };
+    document.write(a.foo1);
+    document.write(a.foo2);
+    document.write(a.foo3);
