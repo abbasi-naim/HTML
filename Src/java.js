@@ -698,7 +698,17 @@ class Animal {
   //ES6 Set 
   let set = new Set([1,2,3,4,4,2,1]);
   document.write(set.size); //4
-  
+
+
+  //ES6 Set Example 
+  let set = new Set();
+set.add(5).add(9).add(59).add(9);
+
+console.log(set.has(9)); // true
+
+for (let v of set.values())
+    console.log(v);  // 5-9-59
+
 
 
 
