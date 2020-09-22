@@ -580,3 +580,22 @@ var images = [
     document.write(a.foo1);
     document.write(a.foo2);
     document.write(a.foo3);
+
+    //assigning object in ES6 
+
+    let person = {
+        name : 'Naim',
+        age : '33',
+        sex : 'male'
+    };
+
+    let student = {
+        name : "Rana",
+        age: "30",
+        gender: "female"
+    };
+
+    let newStudent = Object.assign({},person,student);
+    document.write(newStudent.name); //Rana
+    document.write(newStudent.age); //30
+    document.write(newStudent.gender); // female
