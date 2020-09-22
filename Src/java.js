@@ -484,5 +484,9 @@ var images = [
       let sum = x+y;
       document.write(sum);
   }
-// function with one parameter
+// function with one parameter ES6
   const greet = x => "welcome" + x; 
+
+  // ES6  with no parameter
+
+  const greet = () => alert("Hi!")
