@@ -523,3 +523,10 @@ var images = [
         return a+b+c;  
     }
     document.write(calc(5));
+
+    //default value in ES6
+
+    const calc = (a,b=3,c=2)=>{
+        return a +b +c ;
+    }
+    document.write(calc(5));
