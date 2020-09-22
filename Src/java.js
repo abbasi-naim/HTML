@@ -681,3 +681,9 @@ class Animal {
   }
   let dog = new Dog('Rex');
   dog.speak(); // Rex barks.
+
+
+  //ES6 Map
+
+  let map = new Map([['k1' , 'V1'] , ['k2' , 'V2']]);
+  document.write(map.size);
