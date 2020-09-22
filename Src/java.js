@@ -484,3 +484,5 @@ var images = [
       let sum = x+y;
       document.write(sum);
   }
+// function with one parameter
+  const greet = x => "welcome" + x; 
