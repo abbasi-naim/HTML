@@ -687,3 +687,12 @@ class Animal {
 
   let map = new Map([['k1' , 'V1'] , ['k2' , 'V2']]);
   document.write(map.size);
+
+  //Example of Map in ES6
+
+  let map = new Map();
+  map.set('k1','v1').set('k2','v2');
+  document.write(map.get('k1')); // v1
+  document.write(map.has('k2')); // true
+  
+
