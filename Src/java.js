@@ -544,3 +544,15 @@ var images = [
     };
     tree.grow();
     document.write(tree.height);
+
+    //Example of ES6 Object
+
+    let car ={
+        speed : 40 ,
+        accelerate(){
+            this.speed +=10;
+        }
+    };
+    car.accelerate();
+    car.accelerate();
+    document.write(car.speed);
