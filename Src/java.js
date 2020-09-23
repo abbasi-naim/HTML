@@ -730,6 +730,9 @@ calc.hit(1,2,calc.degree);
 //Repeating Strings 
 console.log("foo".repeat(3)); // foofoofoo
 
+//Searching Strings 
+"SoloLearn".indexOf("Solo") === 0; // true
+
 
 
 
