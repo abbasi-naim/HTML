@@ -727,6 +727,9 @@ for (let v of set.values())
 import * as calc from "util/calc";
 calc.hit(1,2,calc.degree);
 
+//Repeating Strings 
+console.log("foo".repeat(3)); // foofoofoo
+
 
 
 
