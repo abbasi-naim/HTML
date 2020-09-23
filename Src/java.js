@@ -747,6 +747,17 @@ const arr2 = [5,6,7,8];
 let arr3 = [...arr,4,...arr2];
  document.write(arr3);
 
+ //Example  
+
+ const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [...arr1, 6];
+const func = (...rest) => {
+  console.log(rest.length);
+}
+func(...arr1); // 5
+func(...arr2); // 6
+
+
 
 
 
