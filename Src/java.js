@@ -733,6 +733,13 @@ console.log("foo".repeat(3)); // foofoofoo
 //Searching Strings 
 "SoloLearn".indexOf("Solo") === 0; // true
 
+//Searching Strings in ES6
+"SoloLearn".startsWith("Solo", 0); // true
+"SoloLearn".endsWith("Solo", 4); // true
+"SoloLearn".includes("loLe"); // true
+"SoloLearn".includes("olo", 1); // true
+"SoloLearn".includes("olo", 2); // false
+
 
 
 
