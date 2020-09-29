@@ -764,6 +764,9 @@ let interestRate = 1.5;
 console.log(interestRate);
 
 
+const interestRate = 0.75;
+let interestRate = 2.5;
+console.log(interestRate);
 
 
 
