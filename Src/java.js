@@ -792,7 +792,8 @@ person[selected] = 'Rana';
 
 //Array 
 let selectedColors = ['rot' , 'weiss' , 'gelb'];
-console.log(selectedColors);
+selectedColors[3] = 'blau';
+console.log(selectedColors.length);
 
 
 
