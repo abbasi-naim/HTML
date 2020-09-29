@@ -804,6 +804,16 @@ function greet(name , lastName) {
 greet('Naim' , 'abbasi' );
 
 
+function squre(number) {
+    return number * number;
+    
+}
+
+let numbers = square(2);
+console.log(numbers)  // or  
+console.log(square(2));
+
+
 
 
 
