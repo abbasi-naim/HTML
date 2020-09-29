@@ -1,7 +1,10 @@
 <html>
     <head> <link rel="stylesheet" href="../Html-Sololearn/Src/style.css"> 
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <script type="text/javascript" src="../Html-Sololearn/Src/java.js" ></script>
+
         <title>Learning HTML</title>
     </head>
     <body>
@@ -42,7 +45,14 @@
       <form onsubmit="return validate()" method="POST"></form>
       Your Email:<input type="text" id="email1" name="email1"/><br/>
       Repeat Email: <input type="text" id="email2" name="email2" /><br/>
-      submit<input type="submit" value="Submit" />
+      submit<input type="submit" value="Submit" />   
+    <button onclick="generatePDF()">Download as PDF</button>
+    <div id="invoice">
+      <h1>Our Invoice</h1>
+    </div>
+    <script type="text/javascript" src="../Html-Sololearn/Src/java.js" ></script>
+    <script src="html2pdf.bundle.min.js"></script>
+    <h1>Learn Java Script With MOSH</h1>
+    </body>
 
-</body>
 </html>
