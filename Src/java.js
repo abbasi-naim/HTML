@@ -763,10 +763,19 @@ let interestRate = 0.5;
 let interestRate = 1.5;
 console.log(interestRate);
 
-
+//Const 
 const interestRate = 0.75;
 let interestRate = 2.5;
 console.log(interestRate);
+
+//Primitives / Value Types
+
+let name = "Naim"; // String
+let age = 33;  // Number 
+let isApproved = true; // Boolean can be either false 
+let firstName = undefined ; /// undefined
+let color = null ; // null 
+
 
 
 
