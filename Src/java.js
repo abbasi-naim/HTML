@@ -795,7 +795,13 @@ let selectedColors = ['rot' , 'weiss' , 'gelb'];
 selectedColors[3] = 'blau';
 console.log(selectedColors.length);
 
+//function 
 
+function greet(name , lastName) {
+    console.log('Hell '  + name + '' + lastName);  
+}
+
+greet('Naim' , 'abbasi' );
 
 
 
