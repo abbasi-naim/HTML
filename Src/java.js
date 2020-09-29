@@ -790,6 +790,10 @@ console.log(person['name']);
 let selected = 'name'
 person[selected] = 'Rana';
 
+//Array 
+let selectedColors = ['rot' , 'weiss' , 'gelb'];
+console.log(selectedColors);
+
 
 
 
