@@ -777,6 +777,20 @@ let firstName = undefined ; /// undefined
 let color = null ; // null 
 
 
+// object 
+
+let person ={
+
+    name: 'Naim',
+    age : 33
+};
+
+console.log(person.name);
+console.log(person['name']);
+let selected = 'name'
+person[selected] = 'Rana';
+
+
 
 
 
