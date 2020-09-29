@@ -757,6 +757,14 @@ const func = (...rest) => {
 func(...arr1); // 5
 func(...arr2); // 6
 
+//Learn Java Script with MOSH
+
+let interestRate = 0.5;
+let interestRate = 1.5;
+console.log(interestRate);
+
+
+
 
 
 
